@@ -1,6 +1,6 @@
-TodoMVC sample application written with Dart web components.
+TodoMVC sample application written with Web UI.
 
-You can see this application [running live](http://dart-lang.github.com/dart-web-components/example/todomvc/index.html),
+You can see this application [running live](http://dart-lang.github.com/web-ui/example/todomvc/index.html),
 or build it and run it yourself as follows:
 
 ```bash
