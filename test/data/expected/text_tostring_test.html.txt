@@ -1,23 +1,23 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x110
-  RenderBlock {HTML} at (0,0) size 800x110
-    RenderBody {BODY} at (8,16) size 784x81
-      RenderBlock {P} at (0,0) size 784x20
-        RenderText {#text} at (0,0) size 211x19
-          text run at (0,0) width 211: "These two sentences should match:"
-      RenderBlock {PRE} at (0,36) size 784x16
-        RenderText {#text} at (0,0) size 400x16
-          text run at (0,0) width 400: "The quick brown [fox, jumps] over the {lazy: dog}."
-      RenderBlock {PRE} at (0,65) size 784x16
-        RenderText {#text} at (0,0) size 128x16
-          text run at (0,0) width 128: "The quick brown "
-        RenderText {#text} at (128,0) size 96x16
-          text run at (128,0) width 96: "[fox, jumps]"
-        RenderText {#text} at (224,0) size 80x16
-          text run at (224,0) width 80: " over the "
-        RenderText {#text} at (304,0) size 88x16
-          text run at (304,0) width 88: "{lazy: dog}"
-        RenderText {#text} at (392,0) size 8x16
-          text run at (392,0) width 8: "."
+layer at (0,0) size 800x118
+  RenderBlock {HTML} at (0,0) size 800x118
+    RenderBody {BODY} at (8,16) size 784x86
+      RenderBlock {P} at (0,0) size 784x18
+        RenderText {#text} at (0,0) size 330x18
+          text run at (0,0) width 330: "These two sentences should match:"
+      RenderBlock {PRE} at (0,34) size 784x18
+        RenderText {#text} at (0,0) size 500x18
+          text run at (0,0) width 500: "The quick brown [fox, jumps] over the {lazy: dog}."
+      RenderBlock {PRE} at (0,68) size 784x18
+        RenderText {#text} at (0,0) size 160x18
+          text run at (0,0) width 160: "The quick brown "
+        RenderText {#text} at (160,0) size 120x18
+          text run at (160,0) width 120: "[fox, jumps]"
+        RenderText {#text} at (280,0) size 100x18
+          text run at (280,0) width 100: " over the "
+        RenderText {#text} at (380,0) size 110x18
+          text run at (380,0) width 110: "{lazy: dog}"
+        RenderText {#text} at (490,0) size 10x18
+          text run at (490,0) width 10: "."

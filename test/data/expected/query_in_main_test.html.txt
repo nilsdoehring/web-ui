@@ -1,28 +1,28 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x136
-  RenderBlock {HTML} at (0,0) size 800x136
-    RenderBody {BODY} at (8,16) size 784x112
-      RenderBlock {P} at (0,0) size 784x20
-        RenderText {#text} at (0,0) size 182x19
-          text run at (0,0) width 182: "Test that query in main works."
-      RenderBlock {P} at (0,36) size 784x20
-        RenderText {#text} at (0,0) size 139x19
-          text run at (0,0) width 139: "Hello world from Dart!"
-      RenderBlock (anonymous) at (0,72) size 784x20
-        RenderInline {SPAN} at (0,0) size 71x19
-          RenderText {#text} at (0,0) size 36x19
-            text run at (0,0) width 36: "Hello "
-          RenderText {#text} at (36,0) size 35x19
-            text run at (36,0) width 35: "world"
+layer at (0,0) size 800x128
+  RenderBlock {HTML} at (0,0) size 800x128
+    RenderBody {BODY} at (8,16) size 784x104
+      RenderBlock {P} at (0,0) size 784x18
+        RenderText {#text} at (0,0) size 300x18
+          text run at (0,0) width 300: "Test that query in main works."
+      RenderBlock {P} at (0,34) size 784x18
+        RenderText {#text} at (0,0) size 220x18
+          text run at (0,0) width 220: "Hello world from Dart!"
+      RenderBlock (anonymous) at (0,68) size 784x18
+        RenderInline {SPAN} at (0,0) size 110x18
+          RenderText {#text} at (0,0) size 60x18
+            text run at (0,0) width 60: "Hello "
+          RenderText {#text} at (60,0) size 50x18
+            text run at (60,0) width 50: "world"
         RenderText {#text} at (0,0) size 0x0
         RenderInline {X-EMPTY} at (0,0) size 0x0
-      RenderBlock (anonymous) at (0,92) size 784x20
-        RenderBlock {DIV} at (0,0) size 784x20
-          RenderText {#text} at (0,0) size 10x19
-            text run at (0,0) width 10: "hi"
-      RenderBlock (anonymous) at (0,112) size 784x0
+      RenderBlock (anonymous) at (0,86) size 784x18
+        RenderBlock {DIV} at (0,0) size 784x18
+          RenderText {#text} at (0,0) size 20x18
+            text run at (0,0) width 20: "hi"
+      RenderBlock (anonymous) at (0,104) size 784x0
         RenderInline {X-EMPTY} at (0,0) size 0x0
         RenderText {#text} at (0,0) size 0x0
         RenderText {#text} at (0,0) size 0x0

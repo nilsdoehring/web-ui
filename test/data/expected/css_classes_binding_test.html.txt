@@ -1,15 +1,16 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x132
-  RenderBlock {HTML} at (0,0) size 800x132
-    RenderBody {BODY} at (8,8) size 784x116
+layer at (0,0) size 800x134
+  RenderBlock {HTML} at (0,0) size 800x134
+    RenderBody {BODY} at (8,8) size 784x118
       RenderBlock {DIV} at (0,0) size 784x50 [color=#0000FF]
-        RenderText {#text} at (0,0) size 347x19
-          text run at (0,0) width 347: "this div will have blue (0000ff) font color and 50px height."
+        RenderText {#text} at (0,0) size 600x18
+          text run at (0,0) width 600: "this div will have blue (0000ff) font color and 50px height."
       RenderBlock {DIV} at (0,50) size 400x50
-        RenderText {#text} at (0,0) size 311x19
-          text run at (0,0) width 311: "this div will have blue 400px width and 50px height."
-      RenderBlock {DIV} at (0,100) size 784x16 [bgcolor=#008000]
-        RenderText {#text} at (0,0) size 488x16
-          text run at (0,0) width 488: "this div will have green (008000) bgcolor and monospace font."
+        RenderText {#text} at (0,0) size 390x36
+          text run at (0,0) width 390: "this div will have blue 400px width and"
+          text run at (0,18) width 120: "50px height."
+      RenderBlock {DIV} at (0,100) size 784x18 [bgcolor=#008000]
+        RenderText {#text} at (0,0) size 610x18
+          text run at (0,0) width 610: "this div will have green (008000) bgcolor and monospace font."

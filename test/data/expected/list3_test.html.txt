@@ -1,28 +1,28 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x36
-  RenderBlock {HTML} at (0,0) size 800x36
-    RenderBody {BODY} at (8,8) size 784x20
-      RenderText {#text} at (0,0) size 192x19
-        text run at (0,0) width 192: "expect: (-a-) (-?-) (-c-), actual: "
-      RenderText {#text} at (192,0) size 11x19
-        text run at (192,0) width 11: "(-"
-      RenderText {#text} at (203,0) size 7x19
-        text run at (203,0) width 7: "a"
-      RenderText {#text} at (210,0) size 15x19
-        text run at (210,0) width 15: "-) "
-      RenderText {#text} at (225,0) size 11x19
-        text run at (225,0) width 11: "(-"
-      RenderText {#text} at (236,0) size 7x19
-        text run at (236,0) width 7: "?"
-      RenderText {#text} at (243,0) size 15x19
-        text run at (243,0) width 15: "-) "
-      RenderText {#text} at (258,0) size 11x19
-        text run at (258,0) width 11: "(-"
-      RenderText {#text} at (269,0) size 7x19
-        text run at (269,0) width 7: "c"
-      RenderText {#text} at (276,0) size 11x19
-        text run at (276,0) width 11: "-)"
+layer at (0,0) size 800x34
+  RenderBlock {HTML} at (0,0) size 800x34
+    RenderBody {BODY} at (8,8) size 784x18
+      RenderText {#text} at (0,0) size 350x18
+        text run at (0,0) width 350: "expect: (-a-) (-?-) (-c-), actual: "
+      RenderText {#text} at (350,0) size 20x18
+        text run at (350,0) width 20: "(-"
+      RenderText {#text} at (370,0) size 10x18
+        text run at (370,0) width 10: "a"
+      RenderText {#text} at (380,0) size 30x18
+        text run at (380,0) width 30: "-) "
+      RenderText {#text} at (410,0) size 20x18
+        text run at (410,0) width 20: "(-"
+      RenderText {#text} at (430,0) size 10x18
+        text run at (430,0) width 10: "?"
+      RenderText {#text} at (440,0) size 30x18
+        text run at (440,0) width 30: "-) "
+      RenderText {#text} at (470,0) size 20x18
+        text run at (470,0) width 20: "(-"
+      RenderText {#text} at (490,0) size 10x18
+        text run at (490,0) width 10: "c"
+      RenderText {#text} at (500,0) size 20x18
+        text run at (500,0) width 20: "-)"
       RenderText {#text} at (0,0) size 0x0
       RenderText {#text} at (0,0) size 0x0

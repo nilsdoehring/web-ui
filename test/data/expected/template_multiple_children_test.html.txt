@@ -1,13 +1,13 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x56
-  RenderBlock {HTML} at (0,0) size 800x56
-    RenderBody {BODY} at (8,8) size 784x40
-      RenderBlock {X-TEST} at (0,0) size 784x40
-        RenderBlock {DIV} at (0,0) size 784x20
-          RenderText {#text} at (0,0) size 167x19
-            text run at (0,0) width 167: "This tests a component with"
-        RenderBlock {DIV} at (0,20) size 784x20
-          RenderText {#text} at (0,0) size 212x19
-            text run at (0,0) width 212: "multiple children of <template> tag."
+layer at (0,0) size 800x52
+  RenderBlock {HTML} at (0,0) size 800x52
+    RenderBody {BODY} at (8,8) size 784x36
+      RenderBlock {X-TEST} at (0,0) size 784x36
+        RenderBlock {DIV} at (0,0) size 784x18
+          RenderText {#text} at (0,0) size 270x18
+            text run at (0,0) width 270: "This tests a component with"
+        RenderBlock {DIV} at (0,18) size 784x18
+          RenderText {#text} at (0,0) size 360x18
+            text run at (0,0) width 360: "multiple children of <template> tag."

@@ -1,13 +1,13 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x56
-  RenderBlock {HTML} at (0,0) size 800x56
-    RenderBody {BODY} at (8,8) size 784x40
-      RenderBlock {COMPONENT-WITH-EVENT-LISTENERS} at (0,0) size 784x40
-        RenderBlock {DIV} at (0,0) size 784x20
-          RenderText {#text} at (0,0) size 8x19
-            text run at (0,0) width 8: "0"
-        RenderBlock {DIV} at (0,20) size 784x20
-          RenderText {#text} at (0,0) size 8x19
-            text run at (0,0) width 8: "1"
+layer at (0,0) size 800x52
+  RenderBlock {HTML} at (0,0) size 800x52
+    RenderBody {BODY} at (8,8) size 784x36
+      RenderBlock {COMPONENT-WITH-EVENT-LISTENERS} at (0,0) size 784x36
+        RenderBlock {DIV} at (0,0) size 784x18
+          RenderText {#text} at (0,0) size 10x18
+            text run at (0,0) width 10: "0"
+        RenderBlock {DIV} at (0,18) size 784x18
+          RenderText {#text} at (0,0) size 10x18
+            text run at (0,0) width 10: "1"

@@ -2,11 +2,11 @@ CONSOLE MESSAGE: line 1: m2
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x36
-  RenderBlock {HTML} at (0,0) size 800x36
-    RenderBody {BODY} at (8,8) size 784x20
-      RenderText {#text} at (0,0) size 467x19
-        text run at (0,0) width 467: "Expect 1 console message: \"m2\", there should be no message for m1, m3, m4"
+layer at (0,0) size 800x34
+  RenderBlock {HTML} at (0,0) size 800x34
+    RenderBody {BODY} at (8,8) size 784x18
+      RenderText {#text} at (0,0) size 730x18
+        text run at (0,0) width 730: "Expect 1 console message: \"m2\", there should be no message for m1, m3, m4"
       RenderInline {A} at (0,0) size 0x0 [color=#0000EE]
       RenderText {#text} at (0,0) size 0x0
       RenderInline {A} at (0,0) size 0x0 [color=#0000EE]

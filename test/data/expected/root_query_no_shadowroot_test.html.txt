@@ -1,10 +1,10 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x42
-  RenderBlock {HTML} at (0,0) size 800x42
-    RenderBody {BODY} at (8,13) size 784x16
-      RenderBlock {DIV} at (0,0) size 784x16
-        RenderBlock {PRE} at (0,0) size 784x16
-          RenderText {#text} at (0,0) size 32x16
-            text run at (0,0) width 32: "PASS"
+layer at (0,0) size 800x50
+  RenderBlock {HTML} at (0,0) size 800x50
+    RenderBody {BODY} at (8,16) size 784x18
+      RenderBlock {DIV} at (0,0) size 784x18
+        RenderBlock {PRE} at (0,0) size 784x18
+          RenderText {#text} at (0,0) size 40x18
+            text run at (0,0) width 40: "PASS"

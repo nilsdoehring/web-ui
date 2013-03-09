@@ -1,16 +1,16 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x36
-  RenderBlock {HTML} at (0,0) size 800x36
-    RenderBody {BODY} at (8,8) size 784x20
-      RenderText {#text} at (0,0) size 193x19
-        text run at (0,0) width 193: "Expect: Go here: cool_link.html "
-      RenderText {#text} at (193,0) size 56x19
-        text run at (193,0) width 56: "Go here: "
-      RenderInline {SPAN} at (0,0) size 84x19
-        RenderText {#text} at (249,0) size 84x19
-          text run at (249,0) width 84: "cool_link.html"
+layer at (0,0) size 800x34
+  RenderBlock {HTML} at (0,0) size 800x34
+    RenderBody {BODY} at (8,8) size 784x18
+      RenderText {#text} at (0,0) size 320x18
+        text run at (0,0) width 320: "Expect: Go here: cool_link.html "
+      RenderText {#text} at (320,0) size 90x18
+        text run at (320,0) width 90: "Go here: "
+      RenderInline {SPAN} at (0,0) size 140x18
+        RenderText {#text} at (410,0) size 140x18
+          text run at (410,0) width 140: "cool_link.html"
       RenderText {#text} at (0,0) size 0x0
       RenderText {#text} at (0,0) size 0x0
       RenderText {#text} at (0,0) size 0x0

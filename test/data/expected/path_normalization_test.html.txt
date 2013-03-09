@@ -1,24 +1,24 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x36
-  RenderBlock {HTML} at (0,0) size 800x36
-    RenderBody {BODY} at (8,8) size 784x20
-      RenderText {#text} at (0,0) size 117x19
-        text run at (0,0) width 117: "expect 'hello hello': "
-      RenderInline {X-COMPONENT-A} at (0,0) size 32x19
+layer at (0,0) size 800x34
+  RenderBlock {HTML} at (0,0) size 800x34
+    RenderBody {BODY} at (8,8) size 784x18
+      RenderText {#text} at (0,0) size 220x18
+        text run at (0,0) width 220: "expect 'hello hello': "
+      RenderInline {X-COMPONENT-A} at (0,0) size 60x18
         RenderText {#text} at (0,0) size 0x0
-        RenderInline {X-COMPONENT-B} at (0,0) size 32x19
+        RenderInline {X-COMPONENT-B} at (0,0) size 60x18
           RenderText {#text} at (0,0) size 0x0
-          RenderInline {SPAN} at (0,0) size 28x19
-            RenderText {#text} at (117,0) size 28x19
-              text run at (117,0) width 28: "hello"
-          RenderText {#text} at (145,0) size 4x19
-            text run at (145,0) width 4: " "
+          RenderInline {SPAN} at (0,0) size 50x18
+            RenderText {#text} at (220,0) size 50x18
+              text run at (220,0) width 50: "hello"
+          RenderText {#text} at (270,0) size 10x18
+            text run at (270,0) width 10: " "
         RenderText {#text} at (0,0) size 0x0
       RenderText {#text} at (0,0) size 0x0
-      RenderInline {SPAN} at (0,0) size 28x19
-        RenderText {#text} at (149,0) size 28x19
-          text run at (149,0) width 28: "hello"
+      RenderInline {SPAN} at (0,0) size 50x18
+        RenderText {#text} at (280,0) size 50x18
+          text run at (280,0) width 50: "hello"
       RenderText {#text} at (0,0) size 0x0
       RenderText {#text} at (0,0) size 0x0

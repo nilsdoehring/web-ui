@@ -1,10 +1,10 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x36
-  RenderBlock {HTML} at (0,0) size 800x36
-    RenderBody {BODY} at (8,8) size 784x20
+layer at (0,0) size 800x34
+  RenderBlock {HTML} at (0,0) size 800x34
+    RenderBody {BODY} at (8,8) size 784x18
       RenderBlock {DIV} at (0,0) size 784x0
-      RenderBlock (anonymous) at (0,0) size 784x20
-        RenderText {#text} at (0,0) size 211x19
-          text run at (0,0) width 211: "expected data-hi to be \"hi\", got \"hi\""
+      RenderBlock (anonymous) at (0,0) size 784x18
+        RenderText {#text} at (0,0) size 370x18
+          text run at (0,0) width 370: "expected data-hi to be \"hi\", got \"hi\""

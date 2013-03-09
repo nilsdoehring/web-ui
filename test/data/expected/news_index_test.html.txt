@@ -1,50 +1,50 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x380
-  RenderBlock {HTML} at (0,0) size 800x381
-    RenderBody {BODY} at (8,21) size 784x344
-      RenderBlock {H1} at (0,0) size 784x37
-        RenderText {#text} at (0,0) size 477x36
-          text run at (0,0) width 477: "Simple Web Components Example"
-      RenderBlock {UL} at (0,58) size 784x286
-        RenderBlock {DIV} at (40,0) size 744x134 [color=#FF0000] [border: (1px dashed #800080)]
-          RenderBlock {H2} at (1,25) size 742x37
-            RenderText {#text} at (0,0) size 209x35
-              text run at (0,0) width 209: "Breaking Stories"
-          RenderBlock {UL} at (1,86) size 742x47
-            RenderListItem {LI} at (40,0) size 702x23
-              RenderListMarker at (-19,0) size 8x22: white bullet
-              RenderInline {A} at (0,0) size 96x22 [color=#0000EE]
-                RenderText {#text} at (0,0) size 96x22
-                  text run at (0,0) width 96: "Also a story"
-            RenderListItem {LI} at (40,23) size 702x23
-              RenderListMarker at (-19,0) size 8x22: white bullet
-              RenderInline {A} at (0,0) size 113x22 [color=#0000EE]
-                RenderText {#text} at (0,0) size 113x22
-                  text run at (0,0) width 113: "Horrible story"
-        RenderBlock {DIV} at (40,133) size 744x152 [border: (1px solid #00FFFF)]
-          RenderBlock {H2} at (1,22) size 742x28
-            RenderText {#text} at (0,0) size 122x26
-              text run at (0,0) width 122: "Other News"
-          RenderBlock {UL} at (1,69) size 742x81
-            RenderListItem {LI} at (40,0) size 702x20
-              RenderListMarker at (-18,0) size 7x19: white bullet
-              RenderInline {A} at (0,0) size 45x19 [color=#0000EE]
-                RenderText {#text} at (0,0) size 45x19
-                  text run at (0,0) width 45: "A story"
-            RenderListItem {LI} at (40,20) size 702x20
-              RenderListMarker at (-18,0) size 7x19: white bullet
-              RenderInline {A} at (0,0) size 83x19 [color=#0000EE]
-                RenderText {#text} at (0,0) size 83x19
-                  text run at (0,0) width 83: "Another story"
-            RenderListItem {LI} at (40,40) size 702x20
-              RenderListMarker at (-18,0) size 7x19: white bullet
-              RenderInline {A} at (0,0) size 105x19 [color=#0000EE]
-                RenderText {#text} at (0,0) size 105x19
-                  text run at (0,0) width 105: "Yet another story"
-            RenderListItem {LI} at (40,60) size 702x20
-              RenderListMarker at (-18,0) size 7x19: white bullet
-              RenderInline {A} at (0,0) size 95x19 [color=#0000EE]
-                RenderText {#text} at (0,0) size 95x19
-                  text run at (0,0) width 95: "Awesome story"
+layer at (0,0) size 800x264
+  RenderBlock {HTML} at (0,0) size 800x264
+    RenderBody {BODY} at (8,10) size 784x238
+      RenderBlock {H1} at (0,0) size 784x18
+        RenderText {#text} at (0,0) size 290x18
+          text run at (0,0) width 290: "Simple Web Components Example"
+      RenderBlock {UL} at (0,34) size 784x204
+        RenderBlock {DIV} at (40,0) size 744x83 [color=#FF0000] [border: (1px dashed #800080)]
+          RenderBlock {H2} at (1,14) size 742x19
+            RenderText {#text} at (0,0) size 160x18
+              text run at (0,0) width 160: "Breaking Stories"
+          RenderBlock {UL} at (1,45) size 742x37
+            RenderListItem {LI} at (40,0) size 702x18
+              RenderListMarker at (-17,0) size 7x18: white bullet
+              RenderInline {A} at (0,0) size 120x18 [color=#0000EE]
+                RenderText {#text} at (0,0) size 120x18
+                  text run at (0,0) width 120: "Also a story"
+            RenderListItem {LI} at (40,18) size 702x18
+              RenderListMarker at (-17,0) size 7x18: white bullet
+              RenderInline {A} at (0,0) size 140x18 [color=#0000EE]
+                RenderText {#text} at (0,0) size 140x18
+                  text run at (0,0) width 140: "Horrible story"
+        RenderBlock {DIV} at (40,82) size 744x122 [border: (1px solid #00FFFF)]
+          RenderBlock {H2} at (1,16) size 742x19
+            RenderText {#text} at (0,0) size 100x18
+              text run at (0,0) width 100: "Other News"
+          RenderBlock {UL} at (1,47) size 742x73
+            RenderListItem {LI} at (40,0) size 702x18
+              RenderListMarker at (-17,0) size 7x18: white bullet
+              RenderInline {A} at (0,0) size 70x18 [color=#0000EE]
+                RenderText {#text} at (0,0) size 70x18
+                  text run at (0,0) width 70: "A story"
+            RenderListItem {LI} at (40,18) size 702x18
+              RenderListMarker at (-17,0) size 7x18: white bullet
+              RenderInline {A} at (0,0) size 130x18 [color=#0000EE]
+                RenderText {#text} at (0,0) size 130x18
+                  text run at (0,0) width 130: "Another story"
+            RenderListItem {LI} at (40,36) size 702x18
+              RenderListMarker at (-17,0) size 7x18: white bullet
+              RenderInline {A} at (0,0) size 170x18 [color=#0000EE]
+                RenderText {#text} at (0,0) size 170x18
+                  text run at (0,0) width 170: "Yet another story"
+            RenderListItem {LI} at (40,54) size 702x18
+              RenderListMarker at (-17,0) size 7x18: white bullet
+              RenderInline {A} at (0,0) size 130x18 [color=#0000EE]
+                RenderText {#text} at (0,0) size 130x18
+                  text run at (0,0) width 130: "Awesome story"

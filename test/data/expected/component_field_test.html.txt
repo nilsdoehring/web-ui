@@ -4,79 +4,79 @@ layer at (0,0) size 800x600
 layer at (0,0) size 800x220
   RenderBlock {HTML} at (0,0) size 800x220
     RenderBody {BODY} at (8,16) size 784x196
-      RenderBlock {P} at (0,0) size 784x20
-        RenderText {#text} at (0,0) size 544x19
-          text run at (0,0) width 433: "This test has three loops, each over two items, for a total of six different "
-          text run at (433,0) width 111: "greeting messages:"
-      RenderBlock {X-GREETER} at (0,36) size 784x20
-        RenderText {#text} at (0,0) size 28x19
-          text run at (0,0) width 28: "hello"
-        RenderText {#text} at (28,0) size 8x19
-          text run at (28,0) width 8: ", "
-        RenderText {#text} at (36,0) size 35x19
-          text run at (36,0) width 35: "world"
-        RenderText {#text} at (71,0) size 14x19
-          text run at (71,0) width 14: "??"
-      RenderBlock {X-GREETER} at (0,56) size 784x20
-        RenderText {#text} at (0,0) size 28x19
-          text run at (0,0) width 28: "hello"
-        RenderText {#text} at (28,0) size 8x19
-          text run at (28,0) width 8: ", "
-        RenderText {#text} at (36,0) size 35x19
-          text run at (36,0) width 35: "world"
-        RenderText {#text} at (71,0) size 10x19
-          text run at (71,0) width 10: "!!"
-      RenderBlock {X-GREETER} at (0,76) size 784x20
-        RenderText {#text} at (0,0) size 28x19
-          text run at (0,0) width 28: "hello"
-        RenderText {#text} at (28,0) size 8x19
-          text run at (28,0) width 8: ", "
-        RenderText {#text} at (36,0) size 49x19
-          text run at (36,0) width 49: "universe"
-        RenderText {#text} at (85,0) size 14x19
-          text run at (85,0) width 14: "??"
-      RenderBlock {X-GREETER} at (0,96) size 784x20
-        RenderText {#text} at (0,0) size 28x19
-          text run at (0,0) width 28: "hello"
-        RenderText {#text} at (28,0) size 8x19
-          text run at (28,0) width 8: ", "
-        RenderText {#text} at (36,0) size 49x19
-          text run at (36,0) width 49: "universe"
-        RenderText {#text} at (85,0) size 10x19
-          text run at (85,0) width 10: "!!"
-      RenderBlock {X-GREETER} at (0,116) size 784x20
-        RenderText {#text} at (0,0) size 10x19
-          text run at (0,0) width 10: "hi"
-        RenderText {#text} at (10,0) size 8x19
-          text run at (10,0) width 8: ", "
-        RenderText {#text} at (18,0) size 35x19
-          text run at (18,0) width 35: "world"
-        RenderText {#text} at (53,0) size 14x19
-          text run at (53,0) width 14: "??"
-      RenderBlock {X-GREETER} at (0,136) size 784x20
-        RenderText {#text} at (0,0) size 10x19
-          text run at (0,0) width 10: "hi"
-        RenderText {#text} at (10,0) size 8x19
-          text run at (10,0) width 8: ", "
-        RenderText {#text} at (18,0) size 35x19
-          text run at (18,0) width 35: "world"
-        RenderText {#text} at (53,0) size 10x19
-          text run at (53,0) width 10: "!!"
-      RenderBlock {X-GREETER} at (0,156) size 784x20
-        RenderText {#text} at (0,0) size 10x19
-          text run at (0,0) width 10: "hi"
-        RenderText {#text} at (10,0) size 8x19
-          text run at (10,0) width 8: ", "
-        RenderText {#text} at (18,0) size 49x19
-          text run at (18,0) width 49: "universe"
-        RenderText {#text} at (67,0) size 14x19
-          text run at (67,0) width 14: "??"
-      RenderBlock {X-GREETER} at (0,176) size 784x20
-        RenderText {#text} at (0,0) size 10x19
-          text run at (0,0) width 10: "hi"
-        RenderText {#text} at (10,0) size 8x19
-          text run at (10,0) width 8: ", "
-        RenderText {#text} at (18,0) size 49x19
-          text run at (18,0) width 49: "universe"
-        RenderText {#text} at (67,0) size 10x19
-          text run at (67,0) width 10: "!!"
+      RenderBlock {P} at (0,0) size 784x36
+        RenderText {#text} at (0,0) size 760x36
+          text run at (0,0) width 760: "This test has three loops, each over two items, for a total of six different"
+          text run at (0,18) width 180: "greeting messages:"
+      RenderBlock {X-GREETER} at (0,52) size 784x18
+        RenderText {#text} at (0,0) size 50x18
+          text run at (0,0) width 50: "hello"
+        RenderText {#text} at (50,0) size 20x18
+          text run at (50,0) width 20: ", "
+        RenderText {#text} at (70,0) size 50x18
+          text run at (70,0) width 50: "world"
+        RenderText {#text} at (120,0) size 20x18
+          text run at (120,0) width 20: "??"
+      RenderBlock {X-GREETER} at (0,70) size 784x18
+        RenderText {#text} at (0,0) size 50x18
+          text run at (0,0) width 50: "hello"
+        RenderText {#text} at (50,0) size 20x18
+          text run at (50,0) width 20: ", "
+        RenderText {#text} at (70,0) size 50x18
+          text run at (70,0) width 50: "world"
+        RenderText {#text} at (120,0) size 20x18
+          text run at (120,0) width 20: "!!"
+      RenderBlock {X-GREETER} at (0,88) size 784x18
+        RenderText {#text} at (0,0) size 50x18
+          text run at (0,0) width 50: "hello"
+        RenderText {#text} at (50,0) size 20x18
+          text run at (50,0) width 20: ", "
+        RenderText {#text} at (70,0) size 80x18
+          text run at (70,0) width 80: "universe"
+        RenderText {#text} at (150,0) size 20x18
+          text run at (150,0) width 20: "??"
+      RenderBlock {X-GREETER} at (0,106) size 784x18
+        RenderText {#text} at (0,0) size 50x18
+          text run at (0,0) width 50: "hello"
+        RenderText {#text} at (50,0) size 20x18
+          text run at (50,0) width 20: ", "
+        RenderText {#text} at (70,0) size 80x18
+          text run at (70,0) width 80: "universe"
+        RenderText {#text} at (150,0) size 20x18
+          text run at (150,0) width 20: "!!"
+      RenderBlock {X-GREETER} at (0,124) size 784x18
+        RenderText {#text} at (0,0) size 20x18
+          text run at (0,0) width 20: "hi"
+        RenderText {#text} at (20,0) size 20x18
+          text run at (20,0) width 20: ", "
+        RenderText {#text} at (40,0) size 50x18
+          text run at (40,0) width 50: "world"
+        RenderText {#text} at (90,0) size 20x18
+          text run at (90,0) width 20: "??"
+      RenderBlock {X-GREETER} at (0,142) size 784x18
+        RenderText {#text} at (0,0) size 20x18
+          text run at (0,0) width 20: "hi"
+        RenderText {#text} at (20,0) size 20x18
+          text run at (20,0) width 20: ", "
+        RenderText {#text} at (40,0) size 50x18
+          text run at (40,0) width 50: "world"
+        RenderText {#text} at (90,0) size 20x18
+          text run at (90,0) width 20: "!!"
+      RenderBlock {X-GREETER} at (0,160) size 784x18
+        RenderText {#text} at (0,0) size 20x18
+          text run at (0,0) width 20: "hi"
+        RenderText {#text} at (20,0) size 20x18
+          text run at (20,0) width 20: ", "
+        RenderText {#text} at (40,0) size 80x18
+          text run at (40,0) width 80: "universe"
+        RenderText {#text} at (120,0) size 20x18
+          text run at (120,0) width 20: "??"
+      RenderBlock {X-GREETER} at (0,178) size 784x18
+        RenderText {#text} at (0,0) size 20x18
+          text run at (0,0) width 20: "hi"
+        RenderText {#text} at (20,0) size 20x18
+          text run at (20,0) width 20: ", "
+        RenderText {#text} at (40,0) size 80x18
+          text run at (40,0) width 80: "universe"
+        RenderText {#text} at (120,0) size 20x18
+          text run at (120,0) width 20: "!!"

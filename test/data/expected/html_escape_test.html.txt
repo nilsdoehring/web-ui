@@ -1,25 +1,25 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x134
-  RenderBlock {HTML} at (0,0) size 800x134
-    RenderBody {BODY} at (8,13) size 784x113
-      RenderBlock {PRE} at (0,0) size 784x80
-        RenderText {#text} at (0,0) size 528x80
-          text run at (0,0) width 528: "Here's some HTML with some triple quotes and escape sequences: '''"
-          text run at (528,0) width 0: " "
-          text run at (0,16) width 520: "    This $text uses \\r\\n and \\backslash \\ to break your compiler."
-          text run at (520,16) width 0: " "
-          text run at (0,32) width 48: "  '''."
-          text run at (48,32) width 0: " "
-          text run at (0,48) width 352: "  But it hopes your compiler does not break!"
-          text run at (352,48) width 0: " "
-          text run at (0,64) width 16: "  "
-      RenderBlock (anonymous) at (0,93) size 784x20
-        RenderText {#text} at (0,0) size 225x19
-          text run at (0,0) width 225: "While we're at it, here's a cool entity: "
-        RenderInline {SPAN} at (0,0) size 8x19
-          RenderText {#text} at (225,0) size 8x19
-            text run at (225,0) width 8: "\x{192}"
+layer at (0,0) size 800x148
+  RenderBlock {HTML} at (0,0) size 800x148
+    RenderBody {BODY} at (8,16) size 784x124
+      RenderBlock {PRE} at (0,0) size 784x90
+        RenderText {#text} at (0,0) size 660x90
+          text run at (0,0) width 660: "Here's some HTML with some triple quotes and escape sequences: '''"
+          text run at (660,0) width 0: " "
+          text run at (0,18) width 650: "    This $text uses \\r\\n and \\backslash \\ to break your compiler."
+          text run at (650,18) width 0: " "
+          text run at (0,36) width 60: "  '''."
+          text run at (60,36) width 0: " "
+          text run at (0,54) width 440: "  But it hopes your compiler does not break!"
+          text run at (440,54) width 0: " "
+          text run at (0,72) width 20: "  "
+      RenderBlock (anonymous) at (0,106) size 784x18
+        RenderText {#text} at (0,0) size 410x18
+          text run at (0,0) width 410: "While we're at it, here's a cool entity: "
+        RenderInline {SPAN} at (0,0) size 10x18
+          RenderText {#text} at (410,0) size 10x18
+            text run at (410,0) width 10: "\x{192}"
         RenderText {#text} at (0,0) size 0x0
         RenderText {#text} at (0,0) size 0x0

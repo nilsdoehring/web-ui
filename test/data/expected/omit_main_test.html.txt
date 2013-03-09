@@ -1,16 +1,16 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x36
-  RenderBlock {HTML} at (0,0) size 800x36
-    RenderBody {BODY} at (8,8) size 784x20
-      RenderText {#text} at (0,0) size 141x19
-        text run at (0,0) width 141: "expect to see 'hi there': "
-      RenderInline {X-FOO} at (0,0) size 10x19
-        RenderText {#text} at (141,0) size 10x19
-          text run at (141,0) width 10: "hi"
-      RenderText {#text} at (151,0) size 4x19
-        text run at (151,0) width 4: " "
-      RenderText {#text} at (155,0) size 30x19
-        text run at (155,0) width 30: "there"
+layer at (0,0) size 800x34
+  RenderBlock {HTML} at (0,0) size 800x34
+    RenderBody {BODY} at (8,8) size 784x18
+      RenderText {#text} at (0,0) size 260x18
+        text run at (0,0) width 260: "expect to see 'hi there': "
+      RenderInline {X-FOO} at (0,0) size 20x18
+        RenderText {#text} at (260,0) size 20x18
+          text run at (260,0) width 20: "hi"
+      RenderText {#text} at (280,0) size 10x18
+        text run at (280,0) width 10: " "
+      RenderText {#text} at (290,0) size 50x18
+        text run at (290,0) width 50: "there"
       RenderText {#text} at (0,0) size 0x0

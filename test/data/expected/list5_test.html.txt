@@ -1,16 +1,16 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x36
-  RenderBlock {HTML} at (0,0) size 800x36
-    RenderBody {BODY} at (8,8) size 784x20
-      RenderText {#text} at (0,0) size 163x19
-        text run at (0,0) width 163: "expect: (--)(--)(--), actual: "
-      RenderText {#text} at (163,0) size 22x19
-        text run at (163,0) width 22: "(--)"
-      RenderText {#text} at (185,0) size 22x19
-        text run at (185,0) width 22: "(--)"
-      RenderText {#text} at (207,0) size 22x19
-        text run at (207,0) width 22: "(--)"
+layer at (0,0) size 800x34
+  RenderBlock {HTML} at (0,0) size 800x34
+    RenderBody {BODY} at (8,8) size 784x18
+      RenderText {#text} at (0,0) size 300x18
+        text run at (0,0) width 300: "expect: (--)(--)(--), actual: "
+      RenderText {#text} at (300,0) size 40x18
+        text run at (300,0) width 40: "(--)"
+      RenderText {#text} at (340,0) size 40x18
+        text run at (340,0) width 40: "(--)"
+      RenderText {#text} at (380,0) size 40x18
+        text run at (380,0) width 40: "(--)"
       RenderText {#text} at (0,0) size 0x0
       RenderText {#text} at (0,0) size 0x0

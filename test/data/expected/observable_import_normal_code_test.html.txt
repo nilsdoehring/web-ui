@@ -1,9 +1,9 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x52
-  RenderBlock {HTML} at (0,0) size 800x52
-    RenderBody {BODY} at (8,16) size 784x20
-      RenderBlock {P} at (0,0) size 784x20
-        RenderText {#text} at (0,0) size 186x19
-          text run at (0,0) width 186: "Something whose answer is 42"
+layer at (0,0) size 800x50
+  RenderBlock {HTML} at (0,0) size 800x50
+    RenderBody {BODY} at (8,16) size 784x18
+      RenderBlock {P} at (0,0) size 784x18
+        RenderText {#text} at (0,0) size 280x18
+          text run at (0,0) width 280: "Something whose answer is 42"

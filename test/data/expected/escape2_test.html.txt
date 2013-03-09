@@ -1,30 +1,30 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x136
-  RenderBlock {HTML} at (0,0) size 800x136
-    RenderBody {BODY} at (8,8) size 784x120
-      RenderBlock {DIV} at (0,0) size 784x20
-        RenderText {#text} at (0,0) size 255x19
-          text run at (0,0) width 255: "text to text (expect <span>text1</span>): "
-        RenderText {#text} at (255,0) size 126x19
-          text run at (255,0) width 126: "<span>text1</span>"
-      RenderBlock {DIV} at (0,20) size 784x40
-        RenderBlock (anonymous) at (0,0) size 784x20
-          RenderText {#text} at (0,0) size 244x19
-            text run at (0,0) width 244: "text to html (expect html1 in a real span):"
-        RenderBlock {DIV} at (0,20) size 784x20
-          RenderText {#text} at (0,0) size 33x19
-            text run at (0,0) width 33: "html1"
-      RenderBlock {DIV} at (0,60) size 784x20
-        RenderText {#text} at (0,0) size 258x19
-          text run at (0,0) width 258: "html to text (expect <span>text2</span>): "
-        RenderText {#text} at (258,0) size 126x19
-          text run at (258,0) width 126: "<span>text2</span>"
-      RenderBlock {DIV} at (0,80) size 784x40
-        RenderBlock (anonymous) at (0,0) size 784x20
-          RenderText {#text} at (0,0) size 247x19
-            text run at (0,0) width 247: "html to html (expect html2 in a real span):"
-        RenderBlock {DIV} at (0,20) size 784x20
-          RenderText {#text} at (0,0) size 33x19
-            text run at (0,0) width 33: "html2"
+layer at (0,0) size 800x124
+  RenderBlock {HTML} at (0,0) size 800x124
+    RenderBody {BODY} at (8,8) size 784x108
+      RenderBlock {DIV} at (0,0) size 784x18
+        RenderText {#text} at (0,0) size 420x18
+          text run at (0,0) width 420: "text to text (expect <span>text1</span>): "
+        RenderText {#text} at (420,0) size 180x18
+          text run at (420,0) width 180: "<span>text1</span>"
+      RenderBlock {DIV} at (0,18) size 784x36
+        RenderBlock (anonymous) at (0,0) size 784x18
+          RenderText {#text} at (0,0) size 430x18
+            text run at (0,0) width 430: "text to html (expect html1 in a real span):"
+        RenderBlock {DIV} at (0,18) size 784x18
+          RenderText {#text} at (0,0) size 50x18
+            text run at (0,0) width 50: "html1"
+      RenderBlock {DIV} at (0,54) size 784x18
+        RenderText {#text} at (0,0) size 420x18
+          text run at (0,0) width 420: "html to text (expect <span>text2</span>): "
+        RenderText {#text} at (420,0) size 180x18
+          text run at (420,0) width 180: "<span>text2</span>"
+      RenderBlock {DIV} at (0,72) size 784x36
+        RenderBlock (anonymous) at (0,0) size 784x18
+          RenderText {#text} at (0,0) size 430x18
+            text run at (0,0) width 430: "html to html (expect html2 in a real span):"
+        RenderBlock {DIV} at (0,18) size 784x18
+          RenderText {#text} at (0,0) size 50x18
+            text run at (0,0) width 50: "html2"

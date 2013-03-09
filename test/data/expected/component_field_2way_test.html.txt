@@ -1,17 +1,17 @@
 Content-Type: text/plain
 layer at (0,0) size 800x600
   RenderView at (0,0) size 800x600
-layer at (0,0) size 800x88
-  RenderBlock {HTML} at (0,0) size 800x88
-    RenderBody {BODY} at (8,16) size 784x56
-      RenderBlock {P} at (0,0) size 784x20
-        RenderText {#text} at (0,0) size 426x19
-          text run at (0,0) width 426: "The message changes from \"hello world\" to something more interesting."
-      RenderBlock {X-GREETER} at (0,36) size 784x0
-      RenderBlock {P} at (0,36) size 784x20
-        RenderText {#text} at (0,0) size 56x19
-          text run at (0,0) width 56: "Yo dawg"
-        RenderText {#text} at (56,0) size 4x19
-          text run at (56,0) width 4: " "
-        RenderText {#text} at (60,0) size 311x19
-          text run at (60,0) width 311: "I heard you like world so we put world in yo world."
+layer at (0,0) size 800x84
+  RenderBlock {HTML} at (0,0) size 800x84
+    RenderBody {BODY} at (8,16) size 784x52
+      RenderBlock {P} at (0,0) size 784x18
+        RenderText {#text} at (0,0) size 690x18
+          text run at (0,0) width 690: "The message changes from \"hello world\" to something more interesting."
+      RenderBlock {X-GREETER} at (0,34) size 784x0
+      RenderBlock {P} at (0,34) size 784x18
+        RenderText {#text} at (0,0) size 70x18
+          text run at (0,0) width 70: "Yo dawg"
+        RenderText {#text} at (70,0) size 10x18
+          text run at (70,0) width 10: " "
+        RenderText {#text} at (80,0) size 510x18
+          text run at (80,0) width 510: "I heard you like world so we put world in yo world."

@@ -2,6 +2,13 @@
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
+(function() {
+  var style = document.createElement('style');
+  style.textContent = '* { font-family: monospace !important; ' +
+      'font-size: 16px !important; }';
+  document.head.appendChild(style);
+})();
+
 if (navigator.webkitStartDart) {
   navigator.webkitStartDart();
 }
