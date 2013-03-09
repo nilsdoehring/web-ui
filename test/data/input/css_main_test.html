@@ -35,6 +35,12 @@ BSD-style license that can be found in the LICENSE file.
       color: DarkViolet;
       background-color: LightCyan;
     }
+
+    /* TODO(jmesserly): workaround to make the render tree cross-platform. */
+    input {
+      line-height: 20px !important;
+      width: 300px;
+    }
   </style>
   <div id="box-1">
     <input class="comp-1-input" value="Test AAA">
