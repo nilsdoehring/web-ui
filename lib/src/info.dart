@@ -67,14 +67,15 @@ class PathInfo {
   bool checkInputPath(String input, Messages messages) {
     if (_mangleFilenames) return true;
     var canonicalized = path.normalize(input);
-    if (!path.relative(canonicalized, from: _outputDir).startsWith('../')) {
+    var parentDir = '..${path.separator}';
+    if (!path.relative(canonicalized, from: _outputDir).startsWith(parentDir)) {
       messages.error(
           'The file ${input} cannot be processed. '
           'Files cannot be under the output folder (${_outputDir}).',
           null, file: input);
       return false;
     }
-    if (path.relative(canonicalized, from: _baseDir).startsWith('../')) {
+    if (path.relative(canonicalized, from: _baseDir).startsWith(parentDir)) {
       messages.error(
           'The file ${input} cannot be processed. '
           'All processed files must be under the base folder (${_baseDir}), you'

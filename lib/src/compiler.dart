@@ -107,7 +107,9 @@ class Compiler {
     }
     return _parseAndDiscover(_mainPath).then((_) {
       _analyze();
+      if (_messages.hasErrors) return;
       _transformDart();
+      if (_messages.hasErrors) return;
       _emit();
       // TODO(jmesserly): need to go through our errors, and figure out if some
       // of them should be warnings instead.
@@ -234,7 +236,7 @@ class Compiler {
 
   /** Generate warning for any CSS file error. */
   SourceFile _cssWarning(error, String filePath) {
-    _messages.warning('problem processing CSS file:\n ${error.error}',
+    _messages.warning('problem processing CSS file:\n $error',
         null, file: filePath);
 
     return null;
