@@ -232,6 +232,13 @@ class Compiler {
     return null;
   }
 
+  SourceFile _cssWarning(error, String filePath) {
+    _messages.warning('problem processing CSS file:\n ${error.error}',
+        null, file: filePath);
+
+    return null;
+  }
+
   void _processDartFile(SourceFile dartFile) {
     if (!_shouldProcessFile(dartFile)) return;
 
@@ -269,7 +276,12 @@ class Compiler {
     return fileSystem.readText(filePath)
         .then((code) =>
             new SourceFile(filePath, type: SourceFile.STYLESHEET)..code = code)
-        .catchError((e) => _readError(e, filePath));
+        .catchError((e) {
+          // TODO(terry): Would be nice to detect if file exist and return
+          //              warning vs error.
+          // Generate warning for any CSS file error.
+          _cssWarning(e, filePath);
+        });
   }
 
   void _processStyleSheetFile(SourceFile cssFile) {
