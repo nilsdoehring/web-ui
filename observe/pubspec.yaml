@@ -1,0 +1,9 @@
+name: observe
+author: "Web UI Authors <web-ui-dev@dartlang.org>"
+homepage: https://github.com/dart-lang/web-ui
+description: observable objects for data binding
+version: 0.0.1
+dependencies:
+  unittest: ">=0.4.6"
+environment:
+  sdk: ">=0.4.6"

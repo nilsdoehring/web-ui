@@ -1,0 +1,13 @@
+packages
+pubspec.lock
+.project
+.buildlog
+tags
+
+# web-ui package
+web-ui/test/perf/input/example
+web-ui/test/perf/output/
+web-ui/test/editor/todomvc/
+web-ui/extension/output/
+web-ui/out/
+web-ui/tool/compile_mirrors.dart
