@@ -1,0 +1,34 @@
+<!doctype html>
+<!--
+Copyright (c) 2013, the Dart project authors.  Please see the AUTHORS file
+for details. All rights reserved. Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+</head>
+<body>
+  <script src="packages/browser/dart.js"></script>
+  <script type="application/dart">
+import 'dart:async';
+import 'dart:html';
+import 'package:unittest/unittest.dart';
+import 'package:unittest/html_config.dart';
+
+import 'binding_syntax_test.dart' as binding_syntax_test;
+import 'element_bindings_test.dart' as element_bindings_test;
+import 'node_bindings_test.dart' as node_bindings_test;
+import 'template_element_test.dart' as template_element_test;
+
+main() {
+  useHtmlConfiguration();
+  group('binding_syntax_test', binding_syntax_test.main);
+  group('element_bindings_test', element_bindings_test.main);
+  group('node_bindings_test', node_bindings_test.main);
+  group('template_element_test', template_element_test.main);
+}
+  </script>
+</body>
+</html>
