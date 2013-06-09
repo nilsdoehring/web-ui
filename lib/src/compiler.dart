@@ -667,7 +667,8 @@ class Compiler {
                 '/* ==================================================== \n'
                 '   Component ${component.tagName} stylesheet \n'
                 '   ==================================================== */\n');
-            buff.write(emitComponentStyleSheet(styleSheet, component.tagName));
+            buff.write(emitComponentStyleSheet(styleSheet, component.tagName,
+                component.tagName));
             buff.write('\n\n');
           }
         }

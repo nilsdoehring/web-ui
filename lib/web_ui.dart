@@ -50,6 +50,8 @@ abstract class WebComponent implements Element {
   /** Any CSS selector (class, id or element) defined name to mangled name. */
   ScopedCssMapper _mapper = new ScopedCssMapper({});
 
+  ScopedCssMapper get css => _mapper;
+
   // TODO(terry): Add a mapper per component in the type hierarchy.
   ScopedCssMapper getScopedCss(String componentName) => _mapper;
   void setScopedCss(String componentName, var mapper) { _mapper = mapper; }
