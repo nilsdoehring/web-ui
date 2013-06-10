@@ -70,7 +70,7 @@ class TodoApp extends WebComponent {
     e.preventDefault(); // don't submit the form
     var input = query('#new-todo');
     if (input.value == '') return;
-    app.todos.add(new Todo(input.value));
+    app.createTodo(input.value);
     input.value = '';
   }
 }
